@@ -1,0 +1,372 @@
+
+body{
+  background-color: wheat;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+h2{
+  text-align: center;
+  font-size: larger;
+}
+
+p{
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: wheat;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  background-image: url("assets/img/pexels-victor-freitas-791763.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  color: #fff;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f15b2a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d93a00;
+}
+
+.btn-primary {
+  background-color: #3b9dff;
+  margin-right: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #1d7ae6;
+}
+
+
+/* about us para */
+
+.para-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.para-cont p {
+  font-size: large;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 50px 0 50px;
+  text-align: left;
+}
+
+#aboutus{
+  font-size: larger;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Supplement Store */
+
+.products {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.product {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #3e8e41;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* contact us */
+
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .icon {
+  margin-right: 10px;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* fee packages */
+
+.packages h2{
+  text-align: center;
+}
+
+.fee-packages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.package-card {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.package-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.package-card p {
+  margin-bottom: 10px;
+}
+
+.package-card .price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.package-card .btn {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* notificatins */
+
+.notifications {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.notification-item .icon {
+  margin-right: 10px;
+}
+
+.notification-item p {
+  margin: 0;
+}
+
+/* diet details */
+
+
+.diet-accordion {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header.active {
+  background-color: #ccc;
+}
+
+.accordion-content {
+  padding: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-content.active {
+  max-height: 500px;
+  /* Adjust the value based on the maximum height of the content */
+}
+
+/* divider */
+.divider {
+  border-top: 2px solid #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+

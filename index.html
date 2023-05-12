@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit-finity</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/png/barbell.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <nav class="sticky-nav" id="logo">
+        <div class="logo">
+          <a href="#">fit-finity</a>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="#logo" onclick="smoothScroll('#logo')">Home</a>
+          </li>
+          <li>
+            <a href="#About us" onclick="smoothScroll('#aboutus')">About us</a>
+          </li>
+          <li>
+            <a href="#Notifications" onclick="smoothScroll('#notification')"
+              >Notifications</a
+            >
+          </li>
+          <li>
+            <a href="#Packages" onclick="smoothScroll('#packages')">Packages</a>
+          </li>
+          <li>
+            <a href="#Store" onclick="smoothScroll('#store')">Store</a>
+          </li>
+          <li>
+            <a href="#Contact" onclick="smoothScroll('#contact')">Contact</a>
+          </li>
+          <li>
+            <a href="signup.html">Signup</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+          <li>
+            <a href="#" id="signOutButton">Logout</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Welcome to Fit-finity gym</h1>
+          <p>
+            We offer state-of-the-art facilities and a variety of classes to
+            help you achieve your fitness goals.
+          </p>
+          <a id="signOutButton" href="signup.html" class="btn btn-primary">Sign Up Now</a>
+          <a href="login.html" class="btn btn-primary">Login</a>
+        </div>
+      </section>
+    </header>
+
+    <div class="container" id="aboutus">
+      <h2>About us</h2>
+      <div class="para-cont">
+        <p>
+          Welcome to Fit-finity, your ultimate destination for fitness and
+          wellness. We are more than just a gym; we are a community of
+          passionate individuals dedicated to helping you achieve your fitness
+          goals and live a healthier, more active lifestyle. At Fit-finity, we
+          believe that fitness is not just about physical strength but also
+          about mental well-being. Our state-of-the-art facility is equipped
+          with top-of-the-line fitness equipment, providing you with the tools
+          you need to challenge yourself and reach new heights. Whether you're a
+          beginner or an experienced fitness enthusiast, we have a wide range of
+          programs and classes designed to meet your unique needs and
+          preferences. What sets us apart is our team of highly qualified and
+          experienced trainers who are committed to guiding and motivating you
+          throughout your fitness journey. They will provide personalized
+          attention, helping you set realistic goals and providing the support
+          and expertise necessary to achieve them. Our trainers are not just
+          fitness professionals; they are mentors who will inspire and empower
+          you to push beyond your limits and unlock your full potential. Beyond
+          our exceptional training programs, we foster a positive and inclusive
+          environment where everyone feels welcome and supported.
+        </p>
+        <p>
+          We believe that fitness should be enjoyable and accessible to all,
+          regardless of age, gender, or fitness level. Our vibrant community of
+          members is made up of individuals from various backgrounds who share a
+          common goal of leading a healthier lifestyle. Through group classes,
+          social events, and community initiatives, we create opportunities for
+          you to connect, network, and forge lasting friendships. Your
+          well-being is our top priority, which is why we provide additional
+          amenities such as nutrition counseling and personalized fitness plans.
+          We understand that achieving optimal health requires a holistic
+          approach, and our dedicated team is here to assist you every step of
+          the way. Whether your goal is to lose weight, build muscle, improve
+          flexibility, or simply maintain an active lifestyle, Fit-finity is the
+          perfect place for you. Join our community today and embark on a
+          transformative fitness journey that will empower you to become the
+          best version of yourself. Remember, at Fit-finity, your success is our
+          success. Together, let's make every workout count and create a
+          healthier, stronger future.
+        </p>
+      </div>
+    </div>
+
+    <!-- end about us -->
+
+    <div class="divider"></div>
+
+    <!-- notifications -->
+    <div class="container" id="notification">
+      <h2>Notifications</h2>
+
+      <div class="notifications">
+        <div class="notification-item">
+          <div class="icon">
+            <img src="assets/png/notification.png" alt="Notification" />
+          </div>
+          <p>New class schedule has been posted.</p>
+        </div>
+        <div class="notification-item">
+          <div class="icon">
+            <img src="assets/png/notification.png" alt="Notification" />
+          </div>
+          <p>Your membership is expiring soon.</p>
+        </div>
+        <div class="notification-item">
+          <div class="icon">
+            <img src="assets/png/notification.png" alt="Notification" />
+          </div>
+          <p>Special promotion: 20% off on personal training sessions.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- notifications end -->
+
+    <div class="divider"></div>
+
+    <!-- fee packages -->
+
+    <div class="container" id="packages">
+      <h2>Fee packages</h2>
+      <p>
+        Choose from our flexible fee packages and start your fitness journey
+        today!
+      </p>
+      <div class="fee-packages">
+        <div class="package-card">
+          <h2>Basic Package</h2>
+          <p>Access to the gym during off-peak hours.</p>
+          <p class="price">999₹/month</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <div class="package-card">
+          <h2>Standard Package</h2>
+          <p>Unlimited access to the gym at all times.</p>
+          <p class="price">1999₹/month</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+        <div class="package-card">
+          <h2>Premium Package</h2>
+          <p>Unlimited access to the gym, plus personal training sessions.</p>
+          <p class="price">2999₹/month</p>
+          <a href="#" class="btn">Sign Up</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- suppliment store -->
+
+    <div class="container" id="store">
+      <h2>Supplement Store</h2>
+      <p>
+        Welcome to our supplement store! Browse our wide selection of
+        supplements to enhance your fitness journey.
+      </p>
+
+      <div class="products">
+        <div class="product">
+          <img
+            src="assets/img/store/6 Best Supplements for Muscle Growth _ Body Building Made Easy.jpeg"
+            alt="Product 1"
+          />
+          <h3>Gold Standard WHEY </h3>
+          <p> It helps build muscle, repair tissue, and make enzymes and hormones.</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img
+            src="assets/img/store/Best Protein Powder(s) to lose weight & gain muscle_.jpeg"
+            alt="Product 2"
+          />
+          <h3>Combat Powder </h3>
+          <p>Protein is a macronutrient – macronutrients (sometimes called 'macros') are the nutrients we need in relatively larger amounts that provide us with calories. Macronutrients include protein, carbohydrates and fat. Protein provides 4kcal per gram. </p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img
+            src="assets/img/store/Grass Fed Whey Isolate Protein _ Onnit.png"
+            alt="Product 3"
+          />
+          <h3>Protien</h3>
+          <p>It helps build muscle, repair tissue, and make enzymes and hormones.</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img
+            src="assets/img/store/Optimum Nutrition Serious Mass - 12 lb_ _ Vanilla.jpeg"
+            alt="Product 2"
+          />
+          <h3>Serious Mass</h3>
+          <p>We've consolidated over 1,250 calories, 50 grams of protein, 250-plus grams of carbohydrates, and 25 vitamins & minerals with added glutamine and creatine into every serving. It''s time to stop thinking small; get serious - Serious Mass.</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img
+            src="assets/img/store/Optimum Nutrition Serious Mass Protein Powder High Calorie Mass Gainer with Vitamins, Creatine Monohydrate and Glutamine, Chocolate, 8 Servings, 2_73kg, Packaging May Vary.jpeg"
+            alt="Product 2"
+          />
+          <h3>Serious Mass</h3>
+          <p>We've consolidated over 1,250 calories, 50 grams of protein, 250-plus grams of carbohydrates, and 25 vitamins & minerals with added glutamine and creatine into every serving. It''s time to stop thinking small; get serious - Serious Mass</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img
+            src="assets/img/store/Supplement Packaging Design _ Whey Protein Powder Packaging.jpeg"
+            alt="Product 2"
+          />
+          <h3>Gold Standard Gainer</h3>
+          <p>Build Muscle Mass, Gain Strength & Hit Weight Goals · 55 Grams of High Quality Protein · 750-770 Calories, from quality ingredients ·</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more products here -->
+
+    <div class="divider"></div>
+
+    <!-- diet details -->
+
+    <div class="diet-accordion">
+      <h2>Diet Details</h2>
+      <div class="accordion-item">
+        <div class="accordion-header">Low Carb Diet</div>
+        <div class="accordion-content">
+          <div class="meal">
+            <h3>Breakfast</h3>
+            <p>Scrambled eggs with spinach and mushrooms</p>
+            <p>Avocado slices</p>
+          </div>
+          <div class="meal">
+            <h3>Lunch</h3>
+            <p>Grilled chicken breast with steamed broccoli and cauliflower</p>
+            <p>
+              Side salad with mixed greens, cherry tomatoes, and olive oil
+              dressing
+            </p>
+          </div>
+          <div class="meal">
+            <h3>Dinner</h3>
+            <p>Baked salmon with roasted asparagus</p>
+            <p>Cauliflower rice</p>
+          </div>
+          <div class="meal">
+            <h3>Snack</h3>
+            <p>Celery sticks with almond butter</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">Vegetarian Diet</div>
+        <div class="accordion-content">
+          <div class="meal">
+            <h3>Breakfast</h3>
+            <p>Vegetable omelette with bell peppers, onions, and tomatoes</p>
+            <p>Whole grain toast with avocado spread</p>
+          </div>
+          <div class="meal">
+            <h3>Lunch</h3>
+            <p>Chickpea salad with mixed greens, cucumbers, and feta cheese</p>
+            <p>Balsamic vinaigrette dressing</p>
+          </div>
+          <div class="meal">
+            <h3>Dinner</h3>
+            <p>Lentil curry with brown rice</p>
+            <p>Steamed broccoli</p>
+          </div>
+          <div class="meal">
+            <h3>Snack</h3>
+            <p>Greek yogurt with honey and berries</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header">High Protein Diet</div>
+        <div class="accordion-content">
+          <div class="meal">
+            <h3>Breakfast</h3>
+            <p>Protein pancakes with Greek yogurt and sliced bananas</p>
+            <p>Scrambled egg whites</p>
+          </div>
+          <div class="meal">
+            <h3>Lunch</h3>
+            <p>Grilled chicken breast with quinoa and roasted vegetables</p>
+            <p>Side salad with mixed greens and lemon vinaigrette</p>
+          </div>
+          <div class="meal">
+            <h3>Dinner</h3>
+            <p>Lean steak with sweet potato mash and sautéed spinach</p>
+            <p>Grilled asparagus</p>
+          </div>
+          <div class="meal">
+            <h3>Snack</h3>
+            <p>Protein shake with almond milk and a handful of nuts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- diet details end -->
+
+    <div class="divider"></div>
+
+    <!-- contact us -->
+
+    <div class="container" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Have a question or need assistance? We're here to help! Get in touch
+        with us using the contact information below or fill out the form.
+      </p>
+
+      <div class="contact-section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+          <div class="icon">
+            <img src="assets/png/telephone.png" alt="Phone" />
+          </div>
+          <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="contact-info">
+          <div class="icon">
+            <img src="assets/png/email.png" alt="Email" />
+          </div>
+          <p>Email: info@gymname.com</p>
+        </div>
+        <div class="contact-info">
+          <div>
+            <img src="assets/png/location.png" alt="Location" />
+          </div>
+          <p>Address: 123 Fitness Street, Bangalore, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <script src="accordian.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+        signOut,
+      } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyAs09Z4Ivl0Do0tf9yxE6kWpk_b4aN4XDc",
+        authDomain: "fit-finity.firebaseapp.com",
+        projectId: "fit-finity",
+        storageBucket: "fit-finity.appspot.com",
+        messagingSenderId: "874327284525",
+        appId: "1:874327284525:web:93063b9d883561b0a711a4",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const userEmail = document.querySelector("#email");
+      const userPassword = document.querySelector("#password");
+      const signInButton = document.querySelector("#signInButton");
+      const signOutButton = document.querySelector("#signOutButton")
+
+      const checkAuthState = async () => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            // authForm.style.display = "none";
+            // secretContent.style.display = "block";
+          } else {
+            // authForm.style.display = "block";
+            // secretContent.style.display = "none";
+          }
+        });
+      };
+
+      const userSignOut = async () => {
+        await signOut(auth);
+      };
+
+      checkAuthState();
+
+      signOutButton.addEventListener("click", userSignOut);
+
+    </script>
+
+  </body>
+
+  <footer>
+    <p>&copy; 2023 Fit-finity. All rights reserved.</p>
+  </footer>
+</html>
